@@ -1,0 +1,24 @@
+/* resulttable.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: #eee;
+}
+
+.table-header td {
+  background-color: #444;
+  padding: 12px;
+  font-weight: 700;
+}
+
+.table-body td {
+  background-color: #222;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.table-body tr:hover {
+  background-color: #555;
+  cursor: pointer;
+}

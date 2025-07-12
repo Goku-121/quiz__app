@@ -1,0 +1,19 @@
+ol {
+  list-style: none; /* Default number and dot remove kore */
+  counter-reset: item; /* Counter reset */
+  padding-left: 1.5em; /* Number er jonne space */
+}
+
+ol li {
+  counter-increment: item; /* Counter increment */
+  position: relative;
+  padding-left: 1.5em; /* Text theke number er jonne space */
+}
+
+ol li::before {
+  content: counter(item); /* Sudhu number dekhan */
+  position: absolute;
+  left: 0;
+  color: #00f0ff; /* Color customize korte paren */
+  font-weight: bold;
+}

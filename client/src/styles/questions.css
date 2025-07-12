@@ -1,0 +1,46 @@
+
+.questions {
+  margin-bottom: 20px;
+}
+
+.questions h2 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #eee;
+}
+
+.questions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.questions li {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+/* Correct answer highlight */
+.correct {
+  background-color: #27ff7a !important;
+  color: #000;
+}
+
+/* Wrong answer highlight */
+.wrong {
+  background-color: #ff5c5c !important;
+  color: #fff;
+}
+
+.check.checked {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #00f0ff;
+}

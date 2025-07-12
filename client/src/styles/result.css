@@ -1,0 +1,35 @@
+/* result.css */
+.result {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #eee;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.answer-review {
+  margin-top: 20px;
+}
+
+.answer-item {
+  background-color: #333;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #eee;
+}
+
+.question-text {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
